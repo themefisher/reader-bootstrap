@@ -1,0 +1,15 @@
+@@include('header.htm')
+
+@@include('blocks/banner.htm')
+@@include('blocks/featured-post.htm')
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row justify-content-center">
+      @@include('blocks/post-full.htm')
+      @@include('blocks/sidebar.htm',{"sidebar": "sidebar-home"})
+    </div>
+  </div>
+</section>
+
+@@include('footer.htm')
